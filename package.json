@@ -1,0 +1,19 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:5r1n1/node-web-server.git"
+  },
+  "description": "My First Web Server. Created as part of NodeJS online training course using ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "5r1n1",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
