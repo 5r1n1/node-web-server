@@ -8,7 +8,8 @@
   "description": "My First Web Server. Created as part of NodeJS online training course using ExpressJS",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "5r1n1",
   "license": "ISC",
