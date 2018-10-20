@@ -25,6 +25,7 @@ app.use (express.static(__dirname + '/public'))
 
 app.get('/', (req, res) => res.render('home.hbs', {pageTitle:'Home Page', welcomeMessage: 'Welcome!!'}))
 app.get('/about', (req, res) => res.render('about.hbs', {pageTitle:'About Page'}))
+app.get('/projects', (req, res) => res.render('projects.hbs', {pageTitle:'Projects Page'}))
 app.get('/superman', (req, res) => res.send('<h1><center>Hello Superman!</center></h1>'))
 app.get('/batman', (req, res) => res.send({name: 'batman', age: 41, hobbies: ['eating', 'sleeping', 'snoring']}))
 
